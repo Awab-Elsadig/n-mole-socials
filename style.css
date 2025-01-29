@@ -10,7 +10,8 @@
 
 html {
 	font-size: 62.5%;
-	background-image: linear-gradient(135deg, #97abff 10%, #123597 100%);
+	background: rgb(97, 171, 204);
+	background: linear-gradient(90deg, rgba(97, 171, 204, 1) 0%, rgba(79, 146, 179, 1) 100%);
 }
 
 body {
@@ -80,8 +81,8 @@ body {
 	background: linear-gradient(135deg, #833ab4, #e1306c);
 }
 
-.whatsapp {
-	background: linear-gradient(135deg, #25d366, #15ad9c);
+.linkedin {
+	background: linear-gradient(135deg, #0077b5, #00a0dc);
 	color: #fff;
 
 	font-size: 1.8rem;
@@ -89,5 +90,10 @@ body {
 
 .team-logo {
 	height: 8rem;
-	opacity: 0.7;
+	opacity: 1;
+}
+
+.hashtags {
+	text-align: center;
+	font-size: 1.2rem;
 }
