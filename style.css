@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	background-image: linear-gradient(135deg, #97abff 10%, #123597 100%);
+}
+
+body {
+	display: grid;
+	place-items: center;
+
+	height: 100dvh;
+
+	color: white;
+
+	font-family: "Poppins";
+}
+
+.title {
+	font-size: 4rem;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+
+	width: 100%;
+	max-width: 80rem;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+
+	width: min(100dvw - 2rem, 30rem);
+
+	padding: 1rem 2rem;
+
+	background-image: radial-gradient(circle 897px at 9% 80.3%, rgba(55, 60, 245, 1) 0%, rgba(234, 161, 15, 0.9) 100.2%);
+
+	font-size: 2rem;
+
+	border-radius: 1rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.social:hover,
+.social:active {
+	scale: 1.1;
+	rotate: -2deg;
+}
+
+.icon {
+	padding: 1rem;
+
+	font-size: 5rem;
+}
+
+.facebook {
+	background-color: #1877f2;
+	background: linear-gradient(135deg, #1877f2, #0e549f);
+}
+
+.instagram {
+	background-color: #d6249f;
+	background: linear-gradient(135deg, #833ab4, #e1306c);
+}
+
+.whatsapp {
+	background: linear-gradient(135deg, #25d366, #15ad9c);
+	color: #fff;
+
+	font-size: 1.8rem;
+}
+
+.team-logo {
+	height: 8rem;
+	opacity: 0.7;
+}
